@@ -7,7 +7,7 @@ import {TASKS} from '../../mock-tasks';
   styleUrls: ['./tasks-item.component.css']
 })
 export class TasksItemComponent implements OnInit {
-@Input() task: Task=TASKS[0]
+@Input() task: Task = TASKS[0]
   constructor() { }
 
   ngOnInit(): void {
