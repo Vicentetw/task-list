@@ -20,7 +20,7 @@ import { InMemoryDataService } from './in-memory-data.service';
     TasksComponent,
     TasksItemComponent
     //conexion
-    HttpClientModule,
+   // HttpClientModule,
     //conexion
   ],
   imports: [
